@@ -1,0 +1,8 @@
+# ninja log v5
+20	1440	585651999	CMakeFiles/native-lib.dir/IndustrialUnits.cpp.o	c566b44fe943f98d
+1	1441	585651999	CMakeFiles/native-lib.dir/DomesticUnits.cpp.o	85276b2d0701f412
+15	5595	585652003	CMakeFiles/native-lib.dir/native-lib.cpp.o	c3027671902b63ab
+6	5709	585652003	CMakeFiles/native-lib.dir/DomesticBillCalculator.cpp.o	a6e610e51e3e1423
+24	5716	585652003	CMakeFiles/native-lib.dir/IndustrialBillCalculator.cpp.o	943979caabd78b66
+11	5731	585652003	CMakeFiles/native-lib.dir/BillCalculateSupport.cpp.o	2e0e6ee4cafddeb4
+5731	6374	585652004	D:/PhyoSan/projects/android-projects/java-native-projects/ElectricBillCalculator/app/build/intermediates/cmake/debug/obj/arm64-v8a/libnative-lib.so	82cfdfacac18db7e

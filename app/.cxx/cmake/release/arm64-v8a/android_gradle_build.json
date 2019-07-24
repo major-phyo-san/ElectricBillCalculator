@@ -1,0 +1,67 @@
+{
+  "stringTable": {
+    "0": "D:/PhyoSan/projects/android-projects/java-native-projects/ElectricBillCalculator/app/.cxx/cmake/release/arm64-v8a",
+    "1": "--target=aarch64-none-linux-android21 --gcc-toolchain=C:/Users/Techman/AppData/Local/sdk-frameworks/android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Techman/AppData/Local/sdk-frameworks/android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dnative_lib_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -O2 -DNDEBUG -fPIC"
+  },
+  "buildFiles": [
+    "C:\\Users\\Techman\\AppData\\Local\\sdk-frameworks\\android\\sdk\\ndk-bundle\\build\\cmake\\platforms.cmake",
+    "C:\\Users\\Techman\\AppData\\Local\\sdk-frameworks\\android\\sdk\\ndk-bundle\\build\\cmake\\android.toolchain.cmake",
+    "D:\\PhyoSan\\projects\\android-projects\\java-native-projects\\ElectricBillCalculator\\app\\src\\main\\cpp\\CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "C:\\Users\\Techman\\AppData\\Local\\sdk-frameworks\\android\\sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"D:\\PhyoSan\\projects\\android-projects\\java-native-projects\\ElectricBillCalculator\\app\\.cxx\\cmake\\release\\arm64-v8a\" clean"
+  ],
+  "buildTargetsCommand": "C:\\Users\\Techman\\AppData\\Local\\sdk-frameworks\\android\\sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"D:\\PhyoSan\\projects\\android-projects\\java-native-projects\\ElectricBillCalculator\\app\\.cxx\\cmake\\release\\arm64-v8a\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "native-lib-Release-arm64-v8a": {
+      "buildCommand": "C:\\Users\\Techman\\AppData\\Local\\sdk-frameworks\\android\\sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"D:\\PhyoSan\\projects\\android-projects\\java-native-projects\\ElectricBillCalculator\\app\\.cxx\\cmake\\release\\arm64-v8a\" native-lib",
+      "buildType": "release",
+      "toolchain": "498658511",
+      "abi": "arm64-v8a",
+      "artifactName": "native-lib",
+      "files": [
+        {
+          "src": "D:\\PhyoSan\\projects\\android-projects\\java-native-projects\\ElectricBillCalculator\\app\\src\\main\\cpp\\native-lib.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\PhyoSan\\projects\\android-projects\\java-native-projects\\ElectricBillCalculator\\app\\src\\main\\cpp\\BillCalculateSupport.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\PhyoSan\\projects\\android-projects\\java-native-projects\\ElectricBillCalculator\\app\\src\\main\\cpp\\DomesticUnits.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\PhyoSan\\projects\\android-projects\\java-native-projects\\ElectricBillCalculator\\app\\src\\main\\cpp\\DomesticBillCalculator.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\PhyoSan\\projects\\android-projects\\java-native-projects\\ElectricBillCalculator\\app\\src\\main\\cpp\\IndustrialUnits.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\PhyoSan\\projects\\android-projects\\java-native-projects\\ElectricBillCalculator\\app\\src\\main\\cpp\\IndustrialBillCalculator.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "D:\\PhyoSan\\projects\\android-projects\\java-native-projects\\ElectricBillCalculator\\app\\build\\intermediates\\cmake\\release\\obj\\arm64-v8a\\libnative-lib.so"
+    }
+  },
+  "toolchains": {
+    "498658511": {
+      "cppCompilerExecutable": "C:\\Users\\Techman\\AppData\\Local\\sdk-frameworks\\android\\sdk\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

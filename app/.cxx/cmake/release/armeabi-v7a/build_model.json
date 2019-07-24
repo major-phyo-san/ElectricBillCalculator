@@ -1,0 +1,72 @@
+{
+  "variant": {
+    "module": {
+      "rootBuildGradleFolder": "D:\\PhyoSan\\projects\\android-projects\\java-native-projects\\ElectricBillCalculator",
+      "sdkFolder": "C:\\Users\\Techman\\AppData\\Local\\sdk-frameworks\\android\\sdk",
+      "isNativeCompilerSettingsCacheEnabled": false,
+      "isBuildOnlyTargetAbiEnabled": true,
+      "splitsAbiFilterSet": [],
+      "intermediatesFolder": "D:\\PhyoSan\\projects\\android-projects\\java-native-projects\\ElectricBillCalculator\\app\\build\\intermediates",
+      "gradleModulePathName": ":app",
+      "moduleRootFolder": "D:\\PhyoSan\\projects\\android-projects\\java-native-projects\\ElectricBillCalculator\\app",
+      "makeFile": "D:\\PhyoSan\\projects\\android-projects\\java-native-projects\\ElectricBillCalculator\\app\\src\\main\\cpp\\CMakeLists.txt",
+      "buildSystem": "CMAKE",
+      "compilerSettingsCacheFolder": "D:\\PhyoSan\\projects\\android-projects\\java-native-projects\\ElectricBillCalculator\\.cxx",
+      "cxxFolder": "D:\\PhyoSan\\projects\\android-projects\\java-native-projects\\ElectricBillCalculator\\app\\.cxx",
+      "ndkFolder": "C:\\Users\\Techman\\AppData\\Local\\sdk-frameworks\\android\\sdk\\ndk-bundle",
+      "ndkVersion": "20.0.5594570",
+      "ndkSupportedAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "cmakeToolchainFile": "."
+    },
+    "buildSystemArgumentList": [],
+    "cFlagList": [],
+    "cppFlagsList": [
+      ""
+    ],
+    "variantName": "release",
+    "soFolder": "D:\\PhyoSan\\projects\\android-projects\\java-native-projects\\ElectricBillCalculator\\app\\build\\intermediates\\cmake\\release\\lib",
+    "objFolder": "D:\\PhyoSan\\projects\\android-projects\\java-native-projects\\ElectricBillCalculator\\app\\build\\intermediates\\cmake\\release\\obj",
+    "jsonFolder": "D:\\PhyoSan\\projects\\android-projects\\java-native-projects\\ElectricBillCalculator\\app\\.cxx\\cmake\\release",
+    "gradleBuildOutputFolder": "D:\\PhyoSan\\projects\\android-projects\\java-native-projects\\ElectricBillCalculator\\app\\.cxx\\cxx\\release",
+    "isDebuggableEnabled": false,
+    "validAbiList": [
+      "ARMEABI_V7A",
+      "ARM64_V8A",
+      "X86",
+      "X86_64"
+    ],
+    "buildTargetSet": []
+  },
+  "abi": "ARMEABI_V7A",
+  "abiPlatformVersion": 21,
+  "cxxBuildFolder": "D:\\PhyoSan\\projects\\android-projects\\java-native-projects\\ElectricBillCalculator\\app\\.cxx\\cmake\\release\\armeabi-v7a",
+  "jsonFile": "D:\\PhyoSan\\projects\\android-projects\\java-native-projects\\ElectricBillCalculator\\app\\.cxx\\cmake\\release\\armeabi-v7a\\android_gradle_build.json",
+  "gradleBuildOutputFolder": "D:\\PhyoSan\\projects\\android-projects\\java-native-projects\\ElectricBillCalculator\\app\\.cxx\\cxx\\release\\armeabi-v7a",
+  "objFolder": "D:\\PhyoSan\\projects\\android-projects\\java-native-projects\\ElectricBillCalculator\\app\\build\\intermediates\\cmake\\release\\obj\\armeabi-v7a",
+  "buildCommandFile": "D:\\PhyoSan\\projects\\android-projects\\java-native-projects\\ElectricBillCalculator\\app\\.cxx\\cmake\\release\\armeabi-v7a\\build_command.txt",
+  "buildOutputFile": "D:\\PhyoSan\\projects\\android-projects\\java-native-projects\\ElectricBillCalculator\\app\\.cxx\\cmake\\release\\armeabi-v7a\\build_output.txt",
+  "modelOutputFile": "D:\\PhyoSan\\projects\\android-projects\\java-native-projects\\ElectricBillCalculator\\app\\.cxx\\cmake\\release\\armeabi-v7a\\build_model.json",
+  "cmake": {
+    "cmakeListsWrapperFile": "D:\\PhyoSan\\projects\\android-projects\\java-native-projects\\ElectricBillCalculator\\app\\.cxx\\cxx\\release\\armeabi-v7a\\CMakeLists.txt",
+    "toolchainWrapperFile": "D:\\PhyoSan\\projects\\android-projects\\java-native-projects\\ElectricBillCalculator\\app\\.cxx\\cxx\\release\\armeabi-v7a\\android_gradle_build.toolchain.cmake",
+    "buildGenerationStateFile": "D:\\PhyoSan\\projects\\android-projects\\java-native-projects\\ElectricBillCalculator\\app\\.cxx\\cxx\\release\\armeabi-v7a\\build_generation_state.json",
+    "cacheKeyFile": "D:\\PhyoSan\\projects\\android-projects\\java-native-projects\\ElectricBillCalculator\\app\\.cxx\\cxx\\release\\armeabi-v7a\\compiler_cache_key.json",
+    "compilerCacheUseFile": "D:\\PhyoSan\\projects\\android-projects\\java-native-projects\\ElectricBillCalculator\\app\\.cxx\\cxx\\release\\armeabi-v7a\\compiler_cache_use.json",
+    "compilerCacheWriteFile": "D:\\PhyoSan\\projects\\android-projects\\java-native-projects\\ElectricBillCalculator\\app\\.cxx\\cxx\\release\\armeabi-v7a\\compiler_cache_write.json",
+    "toolchainSettingsFromCacheFile": "D:\\PhyoSan\\projects\\android-projects\\java-native-projects\\ElectricBillCalculator\\app\\.cxx\\cxx\\release\\armeabi-v7a\\compiler_settings_cache.cmake",
+    "cmakeWrappingBaseFolder": "."
+  },
+  "jsonGenerationLoggingRecordFile": "D:\\PhyoSan\\projects\\android-projects\\java-native-projects\\ElectricBillCalculator\\app\\.cxx\\cmake\\release\\armeabi-v7a\\json_generation_record.json",
+  "compileCommandsJsonFile": "D:\\PhyoSan\\projects\\android-projects\\java-native-projects\\ElectricBillCalculator\\app\\.cxx\\cmake\\release\\armeabi-v7a\\compile_commands.json"
+}

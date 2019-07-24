@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Electric Bill Calculator</string>
+
+    <string name="domestic_option">Domestic Usage</string>
+    <string name="industrial_option">Industrial Usage</string>
+    <string name="domestic_option_text">domesticUsage</string>
+    <string name="industrial_option_text">industrialUsage</string>
+    <string name="input_unit_hint">Electric Units</string>
+    <string name="calculate_button">Calculate Bill</string>
+</resources>

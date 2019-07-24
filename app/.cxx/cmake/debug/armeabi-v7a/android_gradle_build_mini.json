@@ -1,0 +1,19 @@
+{
+  "buildFiles": [
+    "C:\\Users\\Techman\\AppData\\Local\\sdk-frameworks\\android\\sdk\\ndk-bundle\\build\\cmake\\platforms.cmake",
+    "C:\\Users\\Techman\\AppData\\Local\\sdk-frameworks\\android\\sdk\\ndk-bundle\\build\\cmake\\android.toolchain.cmake",
+    "D:\\PhyoSan\\projects\\android-projects\\java-native-projects\\ElectricBillCalculator\\app\\src\\main\\cpp\\CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "C:\\Users\\Techman\\AppData\\Local\\sdk-frameworks\\android\\sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"D:\\PhyoSan\\projects\\android-projects\\java-native-projects\\ElectricBillCalculator\\app\\.cxx\\cmake\\debug\\armeabi-v7a\" clean"
+  ],
+  "buildTargetsCommand": "C:\\Users\\Techman\\AppData\\Local\\sdk-frameworks\\android\\sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"D:\\PhyoSan\\projects\\android-projects\\java-native-projects\\ElectricBillCalculator\\app\\.cxx\\cmake\\debug\\armeabi-v7a\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "native-lib-Debug-armeabi-v7a": {
+      "artifactName": "native-lib",
+      "buildCommand": "C:\\Users\\Techman\\AppData\\Local\\sdk-frameworks\\android\\sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"D:\\PhyoSan\\projects\\android-projects\\java-native-projects\\ElectricBillCalculator\\app\\.cxx\\cmake\\debug\\armeabi-v7a\" native-lib",
+      "abi": "armeabi-v7a",
+      "output": "D:\\PhyoSan\\projects\\android-projects\\java-native-projects\\ElectricBillCalculator\\app\\build\\intermediates\\cmake\\debug\\obj\\armeabi-v7a\\libnative-lib.so"
+    }
+  }
+}
