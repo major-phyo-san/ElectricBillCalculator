@@ -1,8 +1,2 @@
 ninja: Entering directory `D:\PhyoSan\projects\android-projects\java-native-projects\ElectricBillCalculator\app\.cxx\cmake\debug\arm64-v8a'
-[1/7] Building CXX object CMakeFiles/native-lib.dir/IndustrialUnits.cpp.o
-[2/7] Building CXX object CMakeFiles/native-lib.dir/DomesticUnits.cpp.o
-[3/7] Building CXX object CMakeFiles/native-lib.dir/native-lib.cpp.o
-[4/7] Building CXX object CMakeFiles/native-lib.dir/DomesticBillCalculator.cpp.o
-[5/7] Building CXX object CMakeFiles/native-lib.dir/IndustrialBillCalculator.cpp.o
-[6/7] Building CXX object CMakeFiles/native-lib.dir/BillCalculateSupport.cpp.o
-[7/7] Linking CXX shared library D:\PhyoSan\projects\android-projects\java-native-projects\ElectricBillCalculator\app\build\intermediates\cmake\debug\obj\arm64-v8a\libnative-lib.so
+ninja: no work to do.
