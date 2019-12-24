@@ -10,7 +10,6 @@ import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.TextView;
 import android.widget.Toast;
-
 import com.google.android.material.button.MaterialButton;
 import com.google.android.material.textfield.TextInputEditText;
 
@@ -36,8 +35,6 @@ public class MainActivity extends AppCompatActivity {
         inputUnitEditText = findViewById(R.id.electricUnitInput);
         calculateButton = findViewById(R.id.calculateBill);
         calculateButton.setEnabled(false);
-
-        int electricUnits=0;
 
         // Example of a call to a native method
         billOutputTextView = findViewById(R.id.calculatedBillOutput);
@@ -91,7 +88,6 @@ public class MainActivity extends AppCompatActivity {
                 if(selectedOption.equals("Industrial Usage"))
                 {
                     billOutputTextView.setText(industrialBillResults(inputUnit));
-
                 }
             }
         });
