@@ -1,2 +1,0 @@
-ninja: Entering directory `D:\PhyoSan\projects\android-projects\java-native-projects\ElectricBillCalculator\app\.cxx\cmake\debug\arm64-v8a'
-ninja: no work to do.
