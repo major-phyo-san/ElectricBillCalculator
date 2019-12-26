@@ -8,12 +8,20 @@
 /.idea/navEditor.xml
 /.idea/assetWizardSettings.xml
 /.idea/vcs.xml
-/app/.cxx/cmake/
 
 .DS_Store
-app/build/generated
-app/build/intermediates
-app/build/tmp
+/build
+/app/build/generated
+/app/build/intermediates
+/app/build/tmp
+/app/.cxx/
+/app/.cxx/cmake/
+/app/build/generated/outputs
+/app/release
 /captures
 .externalNativeBuild
+*.o
+*.txt
 *.log
+*.apk
+*.json
