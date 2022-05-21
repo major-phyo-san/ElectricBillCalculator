@@ -1,3 +1,0 @@
-D:/PhyoSan/projects/android-projects/java-native-projects/ElectricBillCalculator/app/.cxx/cmake/debug/x86/CMakeFiles/native-lib.dir
-D:/PhyoSan/projects/android-projects/java-native-projects/ElectricBillCalculator/app/.cxx/cmake/debug/x86/CMakeFiles/edit_cache.dir
-D:/PhyoSan/projects/android-projects/java-native-projects/ElectricBillCalculator/app/.cxx/cmake/debug/x86/CMakeFiles/rebuild_cache.dir

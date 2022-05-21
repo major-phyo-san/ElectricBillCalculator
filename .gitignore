@@ -10,12 +10,11 @@
 /.idea/vcs.xml
 
 .DS_Store
+**/.cxx
 /build
 /app/build/generated
 /app/build/intermediates
 /app/build/tmp
-/app/.cxx/
-/app/.cxx/cmake/
 /app/build/generated/outputs
 /app/release
 /captures
