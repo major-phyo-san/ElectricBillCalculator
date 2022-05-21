@@ -20,10 +20,6 @@
 /captures
 .externalNativeBuild
 *.o
-*.txt
 *.log
 *.apk
-*.json
 *.log
-*.cmake
-*.cmake
