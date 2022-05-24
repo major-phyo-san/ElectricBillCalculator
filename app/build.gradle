@@ -28,10 +28,6 @@ android {
             version "3.10.2"
         }
     }
-    packagingOptions {
-        doNotStrip "*/mips/*.so"
-        doNotStrip "*/mips64/*.so"
-    }
 }
 
 dependencies {
