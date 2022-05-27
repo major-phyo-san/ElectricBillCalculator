@@ -1,10 +1,12 @@
 //
-// Created by Techman on 24/07/2019.
+// Created by Techman (MajorSan) on 23/07/2019.
+// Updated by Techman (MajorSan) on 19/04/2020.
+// Refactored by Techman (MajorSan) on 25/05/2022.
 //
 
-#include "include/IndustrialBillCalculator.h"
-#include "include/IndustrialUnits.h"
-#include "include/BillCalculateSupport.h"
+#include "include/industrialbillcalculator.h"
+#include "include/industrialunits.h"
+#include "include/billcalculatesupport.h"
 
 using namespace std;
 
@@ -23,16 +25,20 @@ string calculateIndustryBill(double inputUnits)
         outputText += "The Electrical Units should be non negative number!\n";
     }
 
-    for(int i=0; i<7; i++)
+    else
     {
-        if(acceptUnitSegments[i] == 0)
-            break;
-        unitCosts[i] = acceptUnitSegments[i] * costFactor[i];
-        outputText += "Units: " + formatOutputString(acceptUnitSegments[i]) + " x " + formatOutputString(costFactor[i]) + " Kyats Cost: " + formatOutputString(unitCosts[i]) + " Kyats \n";
-        totalCharge += unitCosts[i];
+        for (int i = 0; i < 7; i++)
+        {
+            if (acceptUnitSegments[i] == 0)
+                break;
+            unitCosts[i] = acceptUnitSegments[i] * costFactor[i];
+            outputText += "Units: " + formatOutputString(acceptUnitSegments[i]) + " x " + formatOutputString(costFactor[i]) + " Kyats Cost: " + formatOutputString(unitCosts[i]) + " Kyats \n";
+            totalCharge += unitCosts[i];
+        }
+
+        outputText += "Total Units Cost: " + formatOutputString(totalCharge) + " Kyats \n";
+        outputText += "Total Bill (maintenance fee included): " + formatOutputString(totalCharge + maintenanceFee) + " Kyats \n";
     }
 
-    outputText += "Total Units Cost: " + formatOutputString(totalCharge) + " Kyats \n";
-    outputText += "Total Bill (maintenance fee included): " + formatOutputString(totalCharge+maintenanceFee) + " Kyats \n";
     return outputText;
 }

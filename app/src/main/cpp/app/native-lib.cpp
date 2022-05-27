@@ -1,7 +1,14 @@
+//
+// Created by Techman (MajorSan) on 23/07/2019.
+// Updated by Techman (MajorSan) on 19/04/2020.
+// Refactored by Techman (MajorSan) on 25/05/2022.
+//
+
+#include "include/domesticbillcalculator.h"
+#include "include/industrialbillcalculator.h"
+
 #include <jni.h>
 #include <string>
-#include "include/DomesticBillCalculator.h"
-#include "include/IndustrialBillCalculator.h"
 
 using namespace std;
 

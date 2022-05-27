@@ -17,11 +17,11 @@ add_library( # Sets the name of the library.
              SHARED
 
              # Provides a relative path to your source file(s).
-             app/BillCalculateSupport.cpp 
-             app/DomesticBillCalculator.cpp 
-             app/DomesticUnits.cpp 
-             app/IndustrialBillCalculator.cpp 
-             app/IndustrialUnits.cpp 
+             app/billcalculatesupport.cpp
+             app/domesticbillcalculator.cpp
+             app/domesticunits.cpp
+             app/industrialbillcalculator.cpp
+             app/industrialunits.cpp
              app/native-lib.cpp )
 
 # Searches for a specified prebuilt library and stores the path as a
