@@ -1,9 +1,10 @@
 //
-// Created by Techman on 23/07/2019.
-// Updated by MajorSan on 19/04/2020.
+// Created by Techman (MajorSan) on 23/07/2019.
+// Updated by Techman (MajorSan) on 19/04/2020.
+// Refactored by Techman (MajorSan) on 25/05/2022.
 //
 
-#include "include/DomesticUnits.h"
+#include "include/domesticunits.h"
 
 const int LAYER_0_LIMIT = 30;
 const int LAYER_1_LIMIT = 50;
@@ -11,6 +12,8 @@ const int LAYER_2_LIMIT = 75;
 const int LAYER_3_LIMIT = 100;
 const int LAYER_4_LIMIT = 150;
 const int LAYER_5_LIMIT = 200;
+
+static double unitSegments[7];
 
 double* getDomesticUnitSegments(double inputUnits) {
     if (inputUnits >= 0 && inputUnits <= LAYER_0_LIMIT)

@@ -1,8 +1,10 @@
 //
-// Created by Techman on 23/07/2019.
+// Created by Techman (MajorSan) on 23/07/2019.
+// Updated by Techman (MajorSan) on 19/04/2020.
+// Refactored by Techman (MajorSan) on 25/05/2022.
 //
 
-#include "include/BillCalculateSupport.h"
+#include "include/billcalculatesupport.h"
 
 string formatOutputString(double rawDouble)
 {

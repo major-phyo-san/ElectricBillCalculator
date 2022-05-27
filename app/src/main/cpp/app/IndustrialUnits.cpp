@@ -1,9 +1,10 @@
 //
-// Created by Techman on 23/07/2019.
-// Updated by MajorSan on 19/04/2020.
+// Created by Techman (MajorSan) on 23/07/2019.
+// Updated by Techman (MajorSan) on 19/04/2020.
+// Refactored by Techman (MajorSan) on 25/05/2022.
 //
 
-#include "include/IndustrialUnits.h"
+#include "include/industrialunits.h"
 
 const int LAYER_0_LIMIT = 500;
 const int LAYER_1_LIMIT = 5000;
@@ -11,6 +12,8 @@ const int LAYER_2_LIMIT = 10000;
 const int LAYER_3_LIMIT = 20000;
 const int LAYER_4_LIMIT = 50000;
 const int LAYER_5_LIMIT = 100000;
+
+static double unitSegments[7];
 
 double* getIndustrialUnitSegments(double inputUnits)
 {
